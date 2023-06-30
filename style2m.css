@@ -1,0 +1,19 @@
+.column {
+    background-color: white;
+    margin: 10px;
+
+}
+body {
+    background-color: lightgrey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td, th  {
+    border: 1px solid grey ;
+}
+
+

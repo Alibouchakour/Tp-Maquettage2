@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style2m.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Maquette bootstrap</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="container d-flex justify-content-evenly">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Les essentiels
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#html">html</a></li>
+                    <li><a class="dropdown-item" href="#Title">Title</a></li>
+                    <li><a class="dropdown-item" href="#Meta description">Meta description</a></li>
+                    <li><a class="dropdown-item" href="#H1 a H6">H1 a H6</a></li>
+                </ul>
+            </div>
+
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Media
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#img">img</a></li>
+                    <li><a class="dropdown-item" href="#Map">Map</a></li>
+                    <li><a class="dropdown-item" href="#a">a</a></li>
+                    <li><a class="dropdown-item" href="#audio">audio</a></li>
+                    <li><a class="dropdown-item" href="#video">video</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Tableau
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#tr">tr</a></li>
+                    <li><a class="dropdown-item" href="#td">td</a></li>
+                    <li><a class="dropdown-item" href="#th">th</a></li>
+                    <li><a class="dropdown-item" href="#table">table</a></li>
+
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Toutes les balises
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#html">html</a></li>
+                    <li><a class="dropdown-item" href="#Title">Title</a></li>
+                    <li><a class="dropdown-item" href="#Meta description">Meta description</a></li>
+                    <li><a class="dropdown-item" href="#H1 a H6">H1 a H6</a></li>
+                    <li><a class="dropdown-item" href="#img">img</a></li>
+                    <li><a class="dropdown-item" href="#Map">Map</a></li>
+                    <li><a class="dropdown-item" href="#a">a</a></li>
+                    <li><a class="dropdown-item" href="#audio">audio</a></li>
+                    <li><a class="dropdown-item" href="#video">video</a></li>
+                    <li><a class="dropdown-item" href="#tr">tr</a></li>
+                    <li><a class="dropdown-item" href="#td">td</a></li>
+                    <li><a class="dropdown-item" href="#th">th</a></li>
+                    <li><a class="dropdown-item" href="#table">table</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col column">
+                <h2 class="h2" id="html">&lt;html&gt;</h2>
+                <p class="p">Déclaration du document HTML. On lui rajoutera l'attribut lang pour déclarer la langue utilisée.
+                </p>
+                <h2>Atributs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Description</th>
+                            <th>Valeurs (Exemples)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>accesskey</td>
+                            <td>class</td>
+                            <td>contenteditable</td>
+                        </tr>
+                        <tr>
+                            <td>class</td>
+                            <td>fvf</td>
+                            <td>fdvsf</td>
+                        </tr>
+                        <tr>
+                            <td>contenteditable</td>
+                            <td>fvf</td>
+                            <td>fdvsf</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img class="margin 2px" src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                    width="180px">
+            </div>
+
+            <div class="col column">
+
+                    <h2 class="h2" id="Title">&lt;Title&gt;</h2>
+                    <p class="p">Pour le titre de la page HTML en cours de lecture. </p>
+
+                    <h2>Atributs</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Description</th>
+                                <th>Valeurs (Exemples)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>contextmenu</td>
+                                <td>fvf</td>
+                                <td>fdvsf</td>
+                            </tr>
+                            <tr>
+                                <td>dir</td>
+                                <td>fvf</td>
+                                <td>fdvsf</td>
+                            </tr>
+                            <tr>
+                                <td>spellcheck</td>
+                                <td>fvf</td>
+                                <td>fdvsf</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                        width="180px">
+            </div>
+            <div class="col column">
+                    <h2 class="h2" id="Meta description">&lt;Meta description&gt;</h2>
+                    <p class="p">Permets d'ajouter des métas à la page HTML.</p>
+
+                    <h2>Atributs</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Description</th>
+                                <th>Valeurs (Exemples)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>dir</td>
+                                <td>fvf</td>
+                                <td>fdvsf</td>
+                            </tr>
+                            <tr>
+                                <td>hidden</td>
+                                <td>fvf</td>
+                                <td>fdvsf</td>
+                            </tr>
+                            <tr>
+                                <td>lang</td>
+                                <td>fvf</td>
+                                <td>fdvsf</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                        width="180px">
+
+            </div>
+            <div class="col column">
+                        <h2 class="h2" id="H1 a H6">&lt;H1 a H6&gt;</h2>
+                        <p class="p">Utilisés pour la hiérarchisation des titres. </p>
+
+                        <h2>Atribut</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nom</th>
+                                    <th>Description</th>
+                                    <th>Valeurs (Exemples)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>class</td>
+                                    <td>fvf</td>
+                                    <td>fdvsf</td>
+                                </tr>
+                                <tr>
+                                    <td>style</td>
+                                    <td>fvf</td>
+                                    <td>fdvsf</td>
+                                </tr>
+                                <tr>
+                                    <td>title</td>
+                                    <td>fvf</td>
+                                    <td>fdvsf</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                            width="180px">
+            </div>
+            <div class="col column">
+                            <h2 class="h2" id="img">&lt;img&gt;</h2>
+                            <p class="p">Pour déclarer une image. </p>
+
+                            <h2>Atributs</h2>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Nom</th>
+                                        <th>Description</th>
+                                        <th>Valeurs (Exemples)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>dropzone</td>
+                                        <td>fvf</td>
+                                        <td>fdvsf</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lang</td>
+                                        <td>fvf</td>
+                                        <td>fdvsf</td>
+                                    </tr>
+                                    <tr>
+                                        <td>tabindex</td>
+                                        <td>fvf</td>
+                                        <td>fdvsf</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                width="180px">
+            </div>
+
+            <div class="col column">
+                            <h2 class="h2" id="Map">&lt;Map&gt;</h2>
+                            <p class="p">Utilisée pour créer une carte d'image avec des zones réactives.
+                                L'attribut "name" est obligatoirement requis. </p>
+
+                            <h2>Atributs</h2>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Nom</th>
+                                        <th>Description</th>
+                                        <th>Valeurs (Exemples)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>contenteditable</td>
+                                        <td>fvf</td>
+                                        <td>fdvsf</td>
+                                    </tr>
+                                    <tr>
+                                        <td>hidden</td>
+                                        <td>fvf</td>
+                                        <td>fdvsf</td>
+                                    </tr>
+                                    <tr>
+                                        <td>id</td>
+                                        <td>fvf</td>
+                                        <td>fdvsf</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                width="180px">
+                
+            </div>
+
+        
+
+
+            <div class="col column">
+                                <h2 class="h2" id="a">&lt;a&gt;</h2>
+                                <p class="p">Utilisée pour les hyperliens.
+                                    Attention : l'attribut "name" n'existe plus pour les liens. </p>
+
+                                <h2>Atributs</h2>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Nom</th>
+                                            <th>Description</th>
+                                            <th>Valeurs (Exemples)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>translate</td>
+                                            <td>fvf</td>
+                                            <td>fdvsf</td>
+                                        </tr>
+                                        <tr>
+                                            <td>style</td>
+                                            <td>fvf</td>
+                                            <td>fdvsf</td>
+                                        </tr>
+                                        <tr>
+                                            <td>dir</td>
+                                            <td>fvf</td>
+                                            <td>fdvsf</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                    width="180px">
+
+             </div>
+             <div class="col column">
+                                
+                                    <h2 class="h2" id="audio">&lt;Audio&gt;</h2>
+                                    <p class="p">Pour lire un fichier audio.</p>
+
+                                    <h2>Atributs</h2>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Nom</th>
+                                                <th>Description</th>
+                                                <th>Valeurs (Exemples)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>tabindex</td>
+                                                <td>fvf</td>
+                                                <td>fdvsf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>title</td>
+                                                <td>fvf</td>
+                                                <td>fdvsf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>contextmenu</td>
+                                                <td>fvf</td>
+                                                <td>fdvsf</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                        width="180px">
+                        
+                 </div>
+                 <div class="col column">
+                                        <h2 class="h2" id="video">&lt;video&gt;</h2>
+                                        <p class="p">Pour lire une video. </p>
+
+                                        <h2>Atributs</h2>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Nom</th>
+                                                    <th>Description</th>
+                                                    <th>Valeurs (Exemples)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>tabindex</td>
+                                                    <td>fvf</td>
+                                                    <td>fdvsf</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>lang</td>
+                                                    <td>fvf</td>
+                                                    <td>fdvsf</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>style</td>
+                                                    <td>fvf</td>
+                                                    <td>fdvsf</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                            width="180px">
+                                    </div>
+                                            
+                                    <div class="col column">           
+                                            <h2 class="h2" id="tr">&lt;tr&gt;</h2>
+                                            <p class="p">Pour déclarer un champ dans un tableau.</p>
+
+                                            <h2>Atributs</h2>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Nom</th>
+                                                        <th>Description</th>
+                                                        <th>Valeurs (Exemples)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>contextmenu</td>
+                                                        <td>fvf</td>
+                                                        <td>fdvsf</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>draggable</td>
+                                                        <td>fvf</td>
+                                                        <td>fdvsf</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>spellcheck</td>
+                                                        <td>fvf</td>
+                                                        <td>fdvsf</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                                width="180px">
+                                    </div>
+
+                                    <div class="col column">
+                                                <h2 class="h2" id="td">&lt;td&gt;</h2>
+                                                <p class="p">Pour déclarer une cellule dans un tableau. </p>
+
+                                                <h2>Atributs</h2>
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Nom</th>
+                                                            <th>Description</th>
+                                                            <th>Valeurs (Exemples)</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>dropzone</td>
+                                                            <td>fvf</td>
+                                                            <td>fdvsf</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>draggable</td>
+                                                            <td>fvf</td>
+                                                            <td>fdvsf</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>id</td>
+                                                            <td>fvf</td>
+                                                            <td>fdvsf</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                                    width="180px">
+
+                                                    </div>
+
+                                                    <div class="col column">
+                                                    <h2class="h2" id="th">&lt;th&gt;</h2>
+                                                    <p class="p">Pour déclarer une cellule dans l'entête d'un tableau.
+                                                    </p>
+
+                                                    <h2>Atributs</h2>
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Nom</th>
+                                                                <th>Description</th>
+                                                                <th>Valeurs (Exemples)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>class</td>
+                                                                <td>fvf</td>
+                                                                <td>fdvsf</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>contextmenu</td>
+                                                                <td>fvf</td>
+                                                                <td>fdvsf</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>draggable</td>
+                                                                <td>fvf</td>
+                                                                <td>fdvsf</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                                        width="180px">
+                                                </div>
+                                     
+                                                <div class="col-4 column">
+                                                        <h2 class="h2" id="table">&lt;table&gt;</h2>
+                                                        <p class="p">Pour un tableau. Note : En HTML5, l'attribut
+                                                            summary utilisé en accessibilité n'est plus valide et ne
+                                                            doit pas être utilisé :
+                                                            la balise <caption> devient indispensable.</p>
+
+                                                        <h2>Atributs</h2>
+                                                        <table>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Nom</th>
+                                                                    <th>Description</th>
+                                                                    <th>Valeurs (Exemples)</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>spellcheck</td>
+                                                                    <td>fvf</td>
+                                                                    <td>fdvsf</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>style</td>
+                                                                    <td>fvf</td>
+                                                                    <td>fdvsf</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>tabindex</td>
+                                                                    <td>fvf</td>
+                                                                    <td>fdvsf</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                                            width="180px">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+</body>
+
+
+</html>
